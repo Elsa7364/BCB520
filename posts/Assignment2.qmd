@@ -1,5 +1,5 @@
 ---
-title: "BCB 520 Assignment 3"
+title: "Assignment 2 & 3: Exploring a Dataset & Building a Visualization"
 format: html
 editor: visual
 ---
