@@ -10,7 +10,6 @@ listing:
   filter-ui: false
 page-layout: full
 title-block-banner: true
-date: "`r Sys.Date()`"
 format: html
 ---
 
