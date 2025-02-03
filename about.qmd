@@ -1,0 +1,6 @@
+---
+title: "About"
+---
+
+## About this Portfolio
+This is my BCB520 class portfolio where I track my assignments and progress.
