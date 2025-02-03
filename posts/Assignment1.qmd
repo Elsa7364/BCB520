@@ -1,5 +1,5 @@
 ---
-title: "Fun with literate programming."
+title: "Fun with literate programming"
 format:
   html:
     toc: true
