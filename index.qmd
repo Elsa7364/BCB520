@@ -1,0 +1,16 @@
+---
+title: "BCB520 Portfolio"
+author: "Marwa Elsayed"
+date: "`r Sys.Date()`"
+format: html
+---
+
+# Welcome to My BCB520 Portfolio!
+
+This is my learning journey through BCB520! I'll be posting my assignments and exploring **data visualization** along the way. By the end of the semester, I hope this turns into a **cool portfolio** showcasing my progress.
+
+Check out my assignments:
+- [Assignment 1](posts/assignment1.qmd)
+- [Assignment 2](posts/assignment2.qmd)
+
+Stay tuned for more updates!

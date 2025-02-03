@@ -1,0 +1,24 @@
+project:
+  type: website
+
+website:
+  title: "BCB520 Portfolio"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+      - text: Assignments
+        menu:
+          - href: posts/assignment1.qmd
+            text: Assignment 1
+          - href: posts/assignment2.qmd
+            text: Assignment 2
+  page-footer:
+    left: "© 2025 Marwa | BCB520 Portfolio"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
