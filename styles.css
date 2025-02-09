@@ -1,14 +1,104 @@
+/* 🌈 General Styles */
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f9f9f9;
+  font-family: "Poppins", Arial, sans-serif; /* Modern and friendly */
+  background: linear-gradient(135deg, #fffbcc, #ffddf4, #d0f4de); /* Soft pastel gradient */
   color: #333;
+  margin: 0;
+  padding: 20px;
+  text-align: center; /* Adds a friendly layout */
 }
 
+/* 🌟 Headings */
 h1, h2 {
-  color: #0073e6;
+  font-family: "Montserrat", sans-serif; /* Sleek & professional */
+  color: #ff4081; /* Vibrant pink */
+  text-transform: uppercase;
+  text-shadow: 2px 2px 5px rgba(255, 64, 129, 0.3);
 }
 
+/* 🎭 Fun Borders for Headings */
+h1 {
+  border-bottom: 3px solid #ff4081;
+  padding-bottom: 10px;
+  display: inline-block;
+}
+
+h2 {
+  border-bottom: 2px dashed #ff9800;
+  padding-bottom: 8px;
+  display: inline-block;
+}
+
+/* 🎨 Links - Fun and Playful */
 a {
-  color: #FF5733;
+  color: #1e88e5; /* Bright, but readable blue */
   font-weight: bold;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  color: white;
+  background-color: #ff4081; /* Changes on hover */
+  text-decoration: underline;
+}
+
+/* 📌 Navbar - Clean but Fun */
+.navbar {
+  background-color: #6200ea; /* Deep purple for professionalism */
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.navbar a {
+  color: white;
+  padding: 10px 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.navbar a:hover {
+  background-color: #ff4081;
+}
+
+/* 🎀 Buttons */
+button {
+  background: #ff9800;
+  border: none;
+  padding: 10px 15px;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #e65100;
+}
+
+/* 📝 Blog Posts */
+.blog-post {
+  background: white;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.blog-post h2 {
+  color: #ff4081;
+}
+
+/* 🌟 Footer */
+footer {
+  background: #333;
+  color: white;
+  padding: 20px;
+  margin-top: 40px;
+  text-align: center;
+  border-radius: 5px;
 }
