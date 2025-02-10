@@ -1,104 +1,112 @@
-/* 🌈 General Styles */
 body {
-  font-family: "Poppins", Arial, sans-serif; /* Modern and friendly */
-  background: linear-gradient(135deg, #fffbcc, #ffddf4, #d0f4de); /* Soft pastel gradient */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  background-color: #f2f2f2; /* Subtle gray */
   color: #333;
   margin: 0;
   padding: 20px;
-  text-align: center; /* Adds a friendly layout */
+  text-align: center;
 }
 
-/* 🌟 Headings */
+
 h1, h2 {
-  font-family: "Montserrat", sans-serif; /* Sleek & professional */
-  color: #ff4081; /* Vibrant pink */
+  font-family: "Montserrat", sans-serif;
+  color: #3949AB; /* A strong but professional purple-blue */
   text-transform: uppercase;
-  text-shadow: 2px 2px 5px rgba(255, 64, 129, 0.3);
+  text-shadow: 1px 1px 3px rgba(57, 73, 171, 0.2);
+  margin-top: 0; /* Avoid huge spacing before headings */
 }
 
-/* 🎭 Fun Borders for Headings */
+
 h1 {
-  border-bottom: 3px solid #ff4081;
+  border-bottom: 3px solid #3949AB;
   padding-bottom: 10px;
   display: inline-block;
 }
 
 h2 {
-  border-bottom: 2px dashed #ff9800;
+  border-bottom: 2px dashed #3949AB;
   padding-bottom: 8px;
   display: inline-block;
+  margin: 30px 0 20px;
 }
 
-/* 🎨 Links - Fun and Playful */
 a {
-  color: #1e88e5; /* Bright, but readable blue */
-  font-weight: bold;
+  color: #1E88E5;
+  font-weight: 600;
   text-decoration: none;
   padding: 5px 10px;
-  border-radius: 5px;
-  transition: all 0.3s ease;
+  border-radius: 3px;
+  transition: background-color 0.3s ease;
 }
 
 a:hover {
   color: white;
-  background-color: #ff4081; /* Changes on hover */
-  text-decoration: underline;
+  background-color: #3949AB;
 }
 
-/* 📌 Navbar - Clean but Fun */
 .navbar {
-  background-color: #6200ea; /* Deep purple for professionalism */
+  background-color: #303F9F;
   padding: 15px;
-  border-radius: 10px;
+  border-radius: 8px;
+  margin-bottom: 20px; /* Gives some space below */
 }
 
 .navbar a {
-  color: white;
+  color: #fff;
   padding: 10px 15px;
-  font-weight: bold;
+  font-weight: 600;
   text-transform: uppercase;
 }
 
 .navbar a:hover {
-  background-color: #ff4081;
+  background-color: #3949AB;
+  color: #fff;
 }
 
-/* 🎀 Buttons */
+/* =========================================== */
+/*                  Buttons                    */
+/* =========================================== */
+
+/*
+   - Opted for a more neutral accent color (#FFA726), 
+     which complements the purple/blue heading color.
+   - Slight gradient effect for an appealing button style.
+*/
 button {
-  background: #ff9800;
+  background: linear-gradient(to bottom, #FFA726, #FB8C00);
   border: none;
   padding: 10px 15px;
   color: white;
-  font-size: 16px;
-  border-radius: 5px;
+  font-size: 15px;
+  border-radius: 4px;
   cursor: pointer;
-  transition: 0.3s;
+  transition: background 0.3s;
 }
 
 button:hover {
-  background: #e65100;
+  background: #EF6C00;
 }
 
-/* 📝 Blog Posts */
 .blog-post {
-  background: white;
+  background: #fff;
   padding: 20px;
   margin: 20px auto;
   max-width: 800px;
-  border-radius: 10px;
-  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: left; /* Typically better for blog text readability */
 }
 
 .blog-post h2 {
-  color: #ff4081;
+  color: #3949AB;
 }
 
-/* 🌟 Footer */
+
 footer {
-  background: #333;
-  color: white;
+  background: #303F9F;
+  color: #fff;
   padding: 20px;
   margin-top: 40px;
   text-align: center;
-  border-radius: 5px;
+  border-radius: 4px;
 }
