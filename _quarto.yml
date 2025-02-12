@@ -13,5 +13,3 @@ format:
   html:
     css: styles.css
     theme: cosmo
-
-editor: visual
