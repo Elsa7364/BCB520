@@ -63,15 +63,6 @@ a:hover {
   color: #fff;
 }
 
-/* =========================================== */
-/*                  Buttons                    */
-/* =========================================== */
-
-/*
-   - Opted for a more neutral accent color (#FFA726), 
-     which complements the purple/blue heading color.
-   - Slight gradient effect for an appealing button style.
-*/
 button {
   background: linear-gradient(to bottom, #FFA726, #FB8C00);
   border: none;
